@@ -6,7 +6,6 @@ type ProcessManagerClient struct {
 	sock *net.UnixConn
 }
 
-
 func (client *ProcessManagerClient) Run() {
 }
 
